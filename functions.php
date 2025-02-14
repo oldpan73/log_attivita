@@ -1,5 +1,4 @@
 <?php
-require 'db.php';
 
 function logActivity($user_id, $action, $description = null) {
     global $pdo;
